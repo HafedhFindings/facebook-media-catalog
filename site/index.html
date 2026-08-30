@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Facebook media</title>
+<style>
+  :root {
+    --bg: #0b0b0f;
+    --card: #14141c;
+    --muted: #9aa0b4;
+    --text: #f4f4f8;
+    --line: #252532;
+    --accent: #e8c07a;
+    --netflix: #e50914;
+    --prime: #00a8e1;
+    --crunchy: #f47521;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.45 "Iowan Old Style", Palatino, Georgia, serif;
+  }
+  header {
+    padding: 48px 24px 16px; max-width: 1100px; margin: 0 auto;
+  }
+  header h1 { font-weight: 600; letter-spacing: -0.03em; margin: 0 0 8px; }
+  header p { color: var(--muted); margin: 0; font-family: system-ui, sans-serif; font-size: 14px; }
+  nav {
+    display: flex; gap: 8px; flex-wrap: wrap;
+    max-width: 1100px; margin: 0 auto; padding: 16px 24px 8px;
+    font-family: system-ui, sans-serif;
+  }
+  nav button {
+    background: transparent; color: var(--muted); border: 1px solid var(--line);
+    border-radius: 999px; padding: 6px 14px; cursor: pointer;
+  }
+  nav button[aria-pressed="true"] { color: var(--bg); background: var(--accent); border-color: var(--accent); }
+  main { max-width: 1100px; margin: 0 auto; padding: 16px 24px 80px;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+  .empty { grid-column: 1 / -1; color: var(--muted); padding: 48px 0; font-family: system-ui, sans-serif; }
+  article {
+    background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+    overflow: hidden; display: flex; flex-direction: column;
+  }
+  article img { width: 100%; aspect-ratio: 2/3; object-fit: cover; background: #1c1c28; }
+  article .body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; }
+  article h2 { font-size: 18px; margin: 0; }
+  .meta { font-family: system-ui, sans-serif; font-size: 12px; color: var(--muted); }
+  .scores { display: flex; gap: 10px; font-family: system-ui, sans-serif; font-size: 13px; }
+  .scores a { color: var(--accent); text-decoration: none; }
+  .where { display: flex; flex-wrap: wrap; gap: 6px; }
+  .where span {
+    font-family: system-ui, sans-serif; font-size: 11px; padding: 3px 8px; border-radius: 999px;
+    border: 1px solid var(--line); color: var(--muted);
+  }
+  .where span.sub { color: var(--bg); background: var(--accent); border-color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Facebook media</h1>
+  <p>Clips partagés · dispo France (Prime, Netflix, Crunchyroll en priorité)</p>
+</header>
+<nav id="filters"></nav>
+<main id="grid"></main>
+<script>
+const CATS = [["all","Tout"],["tv","Séries"],["movie","Films"],["anime","Anime"],["comedian","Humoristes"]];
+let data = { items: [] };
+let cat = "all";
+async function load() {
+  const res = await fetch("catalog.json");
+  data = await res.json();
+  renderNav();
+  render();
+}
+function renderNav() {
+  const nav = document.getElementById("filters");
+  nav.innerHTML = "";
+  CATS.forEach(([id, label]) => {
+    const b = document.createElement("button");
+    b.textContent = label;
+    b.setAttribute("aria-pressed", id === cat ? "true" : "false");
+    b.onclick = () => { cat = id; renderNav(); render(); };
+    nav.appendChild(b);
+  });
+}
+function render() {
+  const grid = document.getElementById("grid");
+  const items = (data.items || []).filter(i => cat === "all" || i.category === cat);
+  if (!items.length) {
+    grid.innerHTML = '<p class="empty">Rien pour l’instant. Envoie un clip dans le groupe WhatsApp Facebook Media.</p>';
+    return;
+  }
+  grid.innerHTML = "";
+  items.forEach(i => {
+    const el = document.createElement("article");
+    const img = i.poster ? `<img src="${i.poster}" alt="">` : "";
+    const scores = [
+      i.imdb && i.imdb.score != null ? `<a href="${i.imdb.url || '#'}">IMDb ${i.imdb.score}</a>` : "",
+      i.rt && i.rt.score != null ? `<a href="${i.rt.url || '#'}">RT ${i.rt.score}%</a>` : "",
+      i.mal && i.mal.score != null ? `<a href="${i.mal.url || '#'}">MAL ${i.mal.score}</a>` : ""
+    ].filter(Boolean).join("");
+    const platforms = (i.watch_fr || []).map(p => {
+      const sub = (data.subscribed || []).includes(p.id);
+      return `<span class="${sub ? "sub" : ""}">${p.name}</span>`;
+    }).join("");
+    const filler = i.category === "anime" && i.filler_pct != null ? ` · filler ${i.filler_pct}%` : "";
+    el.innerHTML = `${img}<div class="body">
+      <h2>${i.title}</h2>
+      <div class="meta">${i.genre || ""} · ${i.runtime || ""}${filler}</div>
+      <div class="scores">${scores}</div>
+      <div class="where">${platforms}</div>
+    </div>`;
+    grid.appendChild(el);
+  });
+}
+load();
+</script>
+</body>
+</html>

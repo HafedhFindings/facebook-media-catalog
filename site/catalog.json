@@ -1,0 +1,63 @@
+{
+  "updated": "2026-08-29",
+  "region": "FR",
+  "subscribed": [
+    "netflix",
+    "prime",
+    "crunchyroll"
+  ],
+  "items": [
+    {
+      "id": "frontier-lord-begins-with-zero-subjects",
+      "title": "The Frontier Lord Begins with Zero Subjects",
+      "title_jp": "領民0人スタートの辺境領主様",
+      "title_romaji": "Ryoumin 0-nin Start no Henkyou Ryoushu-sama",
+      "category": "anime",
+      "genre": "Fantasy, Slice of Life, Romance, Comedy, Action",
+      "runtime": "12 eps · 23 min",
+      "filler_pct": null,
+      "filler_note": "Currently airing; AnimeFillerList has no page",
+      "year": 2026,
+      "imdb": {
+        "score": null,
+        "url": "https://www.imdb.com/title/tt41054252",
+        "note": "IMDb page not readable from here; third-party aggregators cite ~6.3"
+      },
+      "rt": null,
+      "mal": {
+        "score": 7.04,
+        "scored_by": 3316,
+        "url": "https://myanimelist.net/anime/62078/Ryoumin_0-nin_Start_no_Henkyou_Ryoushu-sama"
+      },
+      "anilist": {
+        "score": 67,
+        "url": "https://anilist.co/anime/196218"
+      },
+      "ann": {
+        "url": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=37095"
+      },
+      "watch_fr": [
+        {
+          "id": "crunchyroll",
+          "name": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/fr/series/GT00378124/the-frontier-lord-begins-with-zero-subjects"
+        },
+        {
+          "id": "prime",
+          "name": "Crunchyroll Amazon Channel",
+          "url": "https://www.justwatch.com/fr/serie/the-frontier-lord-begins-with-zero-subjects"
+        }
+      ],
+      "watch_fr_notes": "JustWatch FR: Crunchyroll + Crunchyroll Amazon Channel (add-on). Not on Netflix FR. Not in base Amazon Prime Video FR catalog. Japan Prime has early exclusivity.",
+      "poster": "https://cdn.myanimelist.net/images/anime/1891/158566l.jpg",
+      "facebook": {
+        "share": "https://www.facebook.com/share/v/1BkWkz6XEC/",
+        "reel": "https://www.facebook.com/reel/1504718874188141",
+        "page": "Anime SPM"
+      },
+      "added": "2026-08-29",
+      "watchlist_added": [],
+      "watchlist_blocked": "crunchyroll_needs_login"
+    }
+  ]
+}
