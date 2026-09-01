@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30",
+  "updated": "2026-09-01",
   "region": "FR",
   "subscribed": [
     "netflix",
@@ -59,6 +59,171 @@
       "watchlist_added": [
         "crunchyroll"
       ]
+    },
+    {
+      "id": "sparks-of-tomorrow",
+      "title": "Sparks of Tomorrow",
+      "title_jp": "二十世紀電氣目録-ユーレカ・エヴリカ-",
+      "title_romaji": "Nijusseiki Denki Mokuroku: Eureka Evrika",
+      "category": "anime",
+      "genre": "Drama, Historical",
+      "runtime": "13 eps · 25 min",
+      "filler_pct": null,
+      "filler_note": "Currently airing (Jul 2026-); no AnimeFillerList page",
+      "year": 2026,
+      "imdb": null,
+      "rt": null,
+      "mal": {
+        "score": 7.72,
+        "scored_by": 3189,
+        "url": "https://myanimelist.net/anime/62856/Nijusseiki_Denki_Mokuroku__Eureka_Evrika"
+      },
+      "ann": {
+        "url": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=37941"
+      },
+      "watch_fr": [
+        {
+          "id": "netflix",
+          "name": "Netflix",
+          "url": "https://www.justwatch.com/fr/serie/sparks-of-tomorrow"
+        }
+      ],
+      "watch_fr_notes": "JustWatch FR: Netflix + Netflix Standard with Ads. Official worldwide Netflix exclusive. Not on Prime FR or Crunchyroll FR.",
+      "poster": "https://cdn.myanimelist.net/images/anime/1068/158475l.jpg",
+      "facebook": {
+        "share": "https://www.facebook.com/share/r/1HawsKpKNC/",
+        "page": "Hantz Clips",
+        "id_confidence": "medium"
+      },
+      "added": "2026-09-01",
+      "watchlist_added": []
+    },
+    {
+      "id": "uq-holder",
+      "title": "UQ Holder!",
+      "title_jp": "UQ HOLDER!〜魔法先生ネギま！2",
+      "title_romaji": "UQ Holder! Mahou Sensei Negima! 2",
+      "category": "anime",
+      "genre": "Action, Adventure, Comedy, Fantasy",
+      "runtime": "12 eps · 23 min",
+      "filler_pct": 0,
+      "filler_note": "AnimeFillerList: 12/12 manga canon, no filler",
+      "year": 2017,
+      "imdb": {
+        "score": 6.5,
+        "votes": 673,
+        "url": "https://www.justwatch.com/fr/serie/uq-holder",
+        "note": "Score shown on JustWatch FR"
+      },
+      "rt": null,
+      "mal": {
+        "score": 6.9,
+        "scored_by": 90753,
+        "url": "https://myanimelist.net/anime/33478/UQ_Holder_Mahou_Sensei_Negima_2"
+      },
+      "watch_fr": [
+        {
+          "id": "prime",
+          "name": "Crunchyroll Amazon Channel",
+          "url": "https://www.justwatch.com/fr/serie/uq-holder"
+        }
+      ],
+      "watch_fr_notes": "JustWatch FR: Crunchyroll Amazon Channel only (Prime add-on). Not on Netflix FR or base Prime FR. Standalone Crunchyroll FR not listed.",
+      "poster": null,
+      "facebook": {
+        "share": "https://www.facebook.com/share/r/1DfdDrcLve/",
+        "page": "Hantz Clips",
+        "id_confidence": "medium"
+      },
+      "added": "2026-09-01",
+      "watchlist_added": []
+    },
+    {
+      "id": "my-daughter-is-a-zombie",
+      "title": "My Daughter Is a Zombie",
+      "title_ko": "jombi-ttal",
+      "category": "movie",
+      "genre": "Comedy, Horror, Drama",
+      "runtime": "113 min",
+      "filler_pct": null,
+      "year": 2025,
+      "imdb": {
+        "score": 6.8,
+        "votes": 533,
+        "url": "https://www.imdb.com/title/tt36553678"
+      },
+      "rt": {
+        "score": null,
+        "url": "https://www.rottentomatoes.com/m/my_daughter_is_a_zombie",
+        "note": "No Tomatometer yet (5 critic reviews)"
+      },
+      "mal": null,
+      "watch_fr": [],
+      "watch_fr_notes": "Not on Netflix FR, Prime FR, or Crunchyroll FR. US Viki/Roku/OnDemandKorea. Disney Plus South Korea. Paris Korean Film Festival Oct 2025. No FR SVOD on JustWatch FR.",
+      "poster": null,
+      "facebook": {
+        "share": "https://www.facebook.com/share/r/1R4Gy9irs3/",
+        "page": "Rasvi Movies",
+        "id_confidence": "high"
+      },
+      "added": "2026-09-01",
+      "watchlist_added": []
+    },
+    {
+      "id": "the-killing-of-a-sacred-deer",
+      "title": "The Killing of a Sacred Deer",
+      "category": "movie",
+      "genre": "Drama, Thriller, Mystery",
+      "runtime": "121 min",
+      "filler_pct": null,
+      "year": 2017,
+      "imdb": {
+        "score": 7.0,
+        "url": "https://www.imdb.com/title/tt5715874"
+      },
+      "rt": {
+        "score": 79,
+        "url": "https://www.rottentomatoes.com/m/the_killing_of_a_sacred_deer"
+      },
+      "mal": null,
+      "watch_fr": [],
+      "watch_fr_notes": "Not on Netflix/Prime/Crunchyroll FR subscription. Rent/buy Amazon, Apple, Canal VOD, ARTE Boutique.",
+      "poster": null,
+      "facebook": {
+        "share": "https://www.facebook.com/share/r/1BWC9QFtes/",
+        "page": "Osama Qaq",
+        "id_confidence": "high"
+      },
+      "added": "2026-09-01",
+      "watchlist_added": []
+    },
+    {
+      "id": "the-shadows-edge",
+      "title": "The Shadow's Edge",
+      "category": "movie",
+      "genre": "Action, Thriller",
+      "runtime": null,
+      "filler_pct": null,
+      "year": 2025,
+      "imdb": {
+        "score": 7.2,
+        "url": "https://www.imdb.com/title/tt31433980"
+      },
+      "rt": {
+        "score": 82,
+        "url": "https://www.rottentomatoes.com/m/the_shadows_edge"
+      },
+      "mal": null,
+      "watch_fr": [],
+      "watch_fr_notes": "Not on Netflix/Prime/Crunchyroll FR subscription. Rent/buy Amazon, Apple, Canal VOD.",
+      "poster": null,
+      "facebook": {
+        "share": "https://www.facebook.com/share/r/1DyUyB87eP/",
+        "page": "8Kdrama",
+        "id_confidence": "high"
+      },
+      "added": "2026-09-01",
+      "watchlist_added": []
     }
   ]
 }
