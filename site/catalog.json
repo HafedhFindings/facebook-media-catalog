@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "region": "FR",
   "subscribed": [
     "netflix",
@@ -223,6 +223,139 @@
         "id_confidence": "high"
       },
       "added": "2026-09-01",
+      "watchlist_added": []
+    },
+    {
+      "id": "big-mouth-2022",
+      "title": "Big Mouth",
+      "title_ko": "빅마우스",
+      "title_alt": "Big Mouse",
+      "category": "tv",
+      "genre": "Action, Crime, Thriller, Drama, Mystery",
+      "runtime": "16 eps · ~71 min",
+      "filler_pct": null,
+      "year": 2022,
+      "imdb": {
+        "score": 7.8,
+        "votes": 9200,
+        "url": "https://www.imdb.com/title/tt21195490"
+      },
+      "rt": {
+        "score": null,
+        "note": "JustWatch FR shows ~70% audience-style aggregate; no clear Tomatometer for the K-drama"
+      },
+      "mal": null,
+      "watch_fr": [],
+      "watch_fr_notes": "JustWatch FR: not on Netflix FR, Prime Video FR, or Crunchyroll FR. Available in other countries on Disney+. No FR SVOD option listed.",
+      "poster": "https://images.justwatch.com/poster/298325680/s592/saison-1.jpg",
+      "facebook": {
+        "share": "https://www.facebook.com/share/r/1at9mvioYG/",
+        "reel": "https://www.facebook.com/reel/2075658970035939",
+        "page": "Ghaith",
+        "id_confidence": "high",
+        "id_note": "On-thumbnail English caption: They are not afraid of warden but of the Big mouse + prison scene. WhatsApp preview Arabic sister/fiancé text for this URL actually matches the other Ghaith reel."
+      },
+      "added": "2026-09-02",
+      "watchlist_added": []
+    },
+    {
+      "id": "quality-assurance-in-another-world",
+      "title": "Quality Assurance in Another World",
+      "title_jp": "この世界は不完全すぎる",
+      "title_romaji": "Kono Sekai wa Fukanzen Sugiru",
+      "category": "anime",
+      "genre": "Adventure, Fantasy, Comedy, Science Fiction",
+      "runtime": "13 eps · 23–24 min",
+      "filler_pct": null,
+      "filler_note": "No AnimeFillerList page; single cour adapted from web manga",
+      "year": 2024,
+      "imdb": {
+        "score": 6.0,
+        "votes": 427,
+        "url": "https://www.justwatch.com/fr/serie/quality-assurance-in-another-world",
+        "note": "Score shown on JustWatch FR"
+      },
+      "rt": {
+        "score": 54,
+        "url": "https://www.justwatch.com/fr/serie/quality-assurance-in-another-world",
+        "note": "JustWatch FR aggregate %"
+      },
+      "mal": {
+        "score": 6.52,
+        "scored_by": 20085,
+        "url": "https://myanimelist.net/anime/54835/Kono_Sekai_wa_Fukanzen_Sugiru"
+      },
+      "ann": {
+        "url": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=27598"
+      },
+      "watch_fr": [
+        {
+          "id": "crunchyroll",
+          "name": "Crunchyroll",
+          "url": "https://www.justwatch.com/fr/serie/quality-assurance-in-another-world"
+        },
+        {
+          "id": "prime",
+          "name": "Crunchyroll Amazon Channel",
+          "url": "https://www.justwatch.com/fr/serie/quality-assurance-in-another-world"
+        }
+      ],
+      "watch_fr_notes": "JustWatch FR: Crunchyroll + Crunchyroll Amazon Channel. Not on Netflix FR.",
+      "poster": "https://cdn.myanimelist.net/images/anime/1187/141847.jpg",
+      "facebook": {
+        "share": "https://www.facebook.com/share/r/1EBNYUcRZR/",
+        "reel": "https://www.facebook.com/reel/27842538822072175",
+        "page": "Univers Mangas",
+        "id_confidence": "medium-high",
+        "id_note": "French overlay RESTENT FIGES + forest/explosion still; matches QA NPC freeze plot. Page: Tu dois absolument regarder cet anime."
+      },
+      "added": "2026-09-02",
+      "watchlist_added": [],
+      "watchlist_note": "Crunchyroll watchlist add not attempted successfully: box browser CDP connectOverCDP timed out (Browser driver shell failed / infra). Same class of blocker as 2026-09-01 run."
+    },
+    {
+      "id": "blood-blockade-battlefront-beyond",
+      "title": "Blood Blockade Battlefront & Beyond",
+      "title_jp": "血界戦線 & BEYOND",
+      "title_romaji": "Kekkai Sensen & Beyond",
+      "title_alt": "Blood Blockade Battlefront (S2)",
+      "category": "anime",
+      "genre": "Action, Fantasy, Comedy, Urban Fantasy",
+      "runtime": "12 eps · ~24 min (S2); franchise 24 TV eps",
+      "filler_pct": 0,
+      "filler_note": "AnimeFillerList: 0% filler across franchise; S1 has 2 anime-canon eps (11-12). Clip matches S2 eps 11-12 (Michella/Toby arc).",
+      "year": 2017,
+      "imdb": {
+        "score": 7.1,
+        "votes": 3400,
+        "url": "https://www.imdb.com/title/tt4379632",
+        "note": "IMDb covers 2015-2017 franchise; JustWatch FR shows 7.1"
+      },
+      "rt": {
+        "score": 71,
+        "url": "https://www.justwatch.com/fr/serie/kekkai-sensen",
+        "note": "JustWatch FR aggregate %"
+      },
+      "mal": {
+        "score": 7.77,
+        "scored_by": 215564,
+        "url": "https://myanimelist.net/anime/34451/Kekkai_Sensen__Beyond",
+        "note": "S2 (& Beyond). S1 Kekkai Sensen MAL 7.59"
+      },
+      "ann": {
+        "url": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=19955"
+      },
+      "watch_fr": [],
+      "watch_fr_notes": "JustWatch FR: Animation Digital Network (ADN) + Anime Digital Network Amazon Channel; buy on Amazon Video. Not on Netflix FR, base Prime Video FR, or Crunchyroll FR subscription listing.",
+      "poster": "https://cdn.myanimelist.net/images/anime/3/88282.jpg",
+      "facebook": {
+        "share": "https://www.facebook.com/share/r/186BuHeLWx/",
+        "reel": "https://www.facebook.com/reel/1322574493375157",
+        "page": "Ghaith",
+        "id_confidence": "high",
+        "id_note": "Leonardo Watch (goggles) + Arabic caption about sister fiancé monster (Michella/Toby in & Beyond)."
+      },
+      "added": "2026-09-02",
       "watchlist_added": []
     }
   ]
