@@ -441,22 +441,17 @@
       },
       "watch_fr": [
         {
-          "id": "netflix",
-          "name": "Netflix",
-          "url": "https://www.netflix.com/fr/title/80243876"
-        },
-        {
-          "id": "prime",
-          "name": "Amazon Prime Video",
-          "url": "https://www.justwatch.com/fr/serie/berserk"
-        },
-        {
           "id": "adn",
           "name": "Animation Digital Network",
           "url": "https://www.justwatch.com/fr/serie/berserk"
+        },
+        {
+          "id": "prime",
+          "name": "Amazon Prime Video (JustWatch FR)",
+          "url": "https://www.justwatch.com/fr/serie/berserk"
         }
       ],
-      "watch_fr_notes": "JustWatch FR (2026-09-04): Netflix, Amazon Prime Video, Animation Digital Network / ADN Amazon Channel, plus ad-tier variants. Not on Crunchyroll FR for the 1997 series (2016 remake is on Crunchyroll). Netflix title 80243876.",
+      "watch_fr_notes": "JustWatch FR listed Netflix + Prime + ADN. Verified 2026-09-04 on Netflix FR (profile HH): title 80243876 / search \"Berserk\" is NOT available. Not on Crunchyroll FR for the 1997 series (2016 remake is on Crunchyroll). Legal FR options: ADN; Prime Video per JustWatch (assistant Prime session previously signed out — not re-verified live).",
       "poster": "https://cdn.myanimelist.net/images/anime/1384/119988l.jpg",
       "facebook": {
         "share": "https://www.facebook.com/share/r/14qUgcSVLiN/",
@@ -467,7 +462,7 @@
       },
       "added": "2026-09-04",
       "watchlist_added": [],
-      "watchlist_note": "Netflix FR list add pending; Prime Video FR session was previously signed out on assistant Chrome."
+      "watchlist_note": "Not added: Netflix FR unavailable (verified). Prime Video FR watchlist blocked — Amazon session previously expired on assistant Chrome. ADN is not a subscribed watchlist target."
     }
   ]
 }
