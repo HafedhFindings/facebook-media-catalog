@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "region": "FR",
   "subscribed": [
     "netflix",
@@ -410,6 +410,64 @@
       "added": "2026-09-03",
       "watchlist_added": [],
       "watchlist_note": "Not added: Netflix FR unavailable; Prime Video FR watchlist blocked — Amazon session expired on assistant Chrome (needs human re-signin)."
+    },
+    {
+      "id": "berserk-1997",
+      "title": "Berserk",
+      "title_jp": "剣風伝奇ベルセルク",
+      "title_romaji": "Kenpuu Denki Berserk",
+      "category": "anime",
+      "genre": "Action, Adventure, Drama, Fantasy, Horror, Gore, Military, Psychological, Seinen",
+      "runtime": "25 eps · 23 min",
+      "filler_pct": 0,
+      "filler_note": "AnimeFillerList: no reported filler (ep 1 mixed canon/filler; rest manga canon)",
+      "year": 1997,
+      "imdb": {
+        "score": 8.7,
+        "votes": 76000,
+        "url": "https://www.imdb.com/title/tt0318871"
+      },
+      "rt": {
+        "score": 84,
+        "note": "JustWatch FR shows 84% (likely RT aggregate); no dedicated RT series page confirmed"
+      },
+      "mal": {
+        "score": 8.61,
+        "scored_by": 417256,
+        "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk"
+      },
+      "ann": {
+        "url": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=242"
+      },
+      "watch_fr": [
+        {
+          "id": "netflix",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/fr/title/80243876"
+        },
+        {
+          "id": "prime",
+          "name": "Amazon Prime Video",
+          "url": "https://www.justwatch.com/fr/serie/berserk"
+        },
+        {
+          "id": "adn",
+          "name": "Animation Digital Network",
+          "url": "https://www.justwatch.com/fr/serie/berserk"
+        }
+      ],
+      "watch_fr_notes": "JustWatch FR (2026-09-04): Netflix, Amazon Prime Video, Animation Digital Network / ADN Amazon Channel, plus ad-tier variants. Not on Crunchyroll FR for the 1997 series (2016 remake is on Crunchyroll). Netflix title 80243876.",
+      "poster": "https://cdn.myanimelist.net/images/anime/1384/119988l.jpg",
+      "facebook": {
+        "share": "https://www.facebook.com/share/r/14qUgcSVLiN/",
+        "reel": "https://www.facebook.com/reel/1375923304714632",
+        "page": "ANIME X",
+        "id_confidence": "high",
+        "id_note": "On-screen 'Berserk' + Arabic caption about blood-and-war era where the strong devour the weak; ANIME X reel."
+      },
+      "added": "2026-09-04",
+      "watchlist_added": [],
+      "watchlist_note": "Netflix FR list add pending; Prime Video FR session was previously signed out on assistant Chrome."
     }
   ]
 }
